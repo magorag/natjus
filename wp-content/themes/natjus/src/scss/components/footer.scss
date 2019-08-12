@@ -1,0 +1,16 @@
+.footer {
+    background: #00004B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 0;
+    img {
+        margin-bottom: 5.7rem;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+}

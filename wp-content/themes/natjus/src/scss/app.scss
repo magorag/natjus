@@ -1,0 +1,54 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+$min-lg: 1400px;
+$max-md: 1399px;
+$min-md: 940px;
+$max-sm: 939px;
+$min-sm: 769px;
+$max-xs: 768px;
+
+*:focus {
+    outline: 0;
+}
+
+html {
+    background: #F5F5F5;
+    @media(min-width: $min-lg) {
+        font-size: 10px;
+    }
+    @media(max-width: $max-md) and (min-width: $min-md) {
+        font-size: 8px;
+    }
+    @media(max-width: $max-sm) and (min-width: $min-sm) {
+        font-size: 10px;
+    }
+    @media(max-width: $max-xs) {
+        font-size: 10px;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+    display: grid;
+    height: 100vh;
+    &__navbar {
+        background: #fff;
+        height: 13.5rem;
+    }
+    &__page {
+        overflow-y: scroll;
+    }
+}
+
+@import './components/container';
+@import './components/article-list';
+@import './components/article-card';
+@import './components/tags';
+@import './components/footer';
+@import './components/navbar';

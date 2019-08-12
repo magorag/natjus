@@ -1,0 +1,40 @@
+.article-card {
+    background: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.4rem;
+    &__tags,
+    &__content {
+        padding: 0 2.2rem;
+    }
+    &__tags {
+        flex: 1;
+        justify-content: flex-end;
+        align-items: flex-end;
+        display: flex;
+    }
+    .tags {
+        justify-content: flex-end;
+    }
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        color:#00004B;
+    }
+    h1 {
+        margin: 2.25rem 0 1.57rem;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        color: #35364D;
+        margin-bottom: 1.5rem;
+    }
+}

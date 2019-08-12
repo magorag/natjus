@@ -1,0 +1,25 @@
+.tags {
+    display: flex;
+    padding: .6rem 0;
+    flex-wrap: wrap;
+    &_item {
+        margin: 0.4rem;
+        border-radius: 2rem;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        a {
+            display: flex;
+            color: #00004B;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-size: 1.2rem;
+            height: 2.2rem;
+            align-items: center;
+            text-decoration: none;
+        }
+    }
+}
